@@ -3,17 +3,16 @@ import './styles.css';
 import Store from './modules/store';
 
 // variables
-let pokemonList = [];
+// let pokemonList = [];
 let appID;
-const newAppURL = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/`;
-
+const newAppURL = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/';
 
 appID = Store.getAppID();
 
 // methods
 
 const newAppID = async (url) => {
-  const newAppURL = `${url}/apps/`;
+  const newAppURL = `${url}apps/`;
   const response = await fetch(newAppURL, {
     method: 'POST',
     mode: 'CORS',
