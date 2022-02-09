@@ -14,8 +14,8 @@ a {
 
 .myNav {
   height: 90px;
-  padding-left: 10rem;
-  padding-right: 10rem;
+  padding-left: 11rem;
+  padding-right: 11rem;
 }
 
 .icnNavlink {
@@ -24,4 +24,17 @@ a {
 
 .activeNavLink {
   text-decoration: underline;
+}
+
+/* footer */
+.myFoot {
+  height: 60px;
+  padding-left: 3rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.fooText {
+  color: white;
 }
