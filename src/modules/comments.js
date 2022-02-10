@@ -1,5 +1,3 @@
-import './comments.css';
-
 export default class commentContent {
   static url = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/lyq9jUNEHrKhgXNSU82r/comments';
 
